@@ -5,9 +5,7 @@ function Card() {
     <div className='Main'>
       <div className="Card">
         <div className='Header'>
-          <div className='Picutre'>
-            pfp
-          </div>
+          <img className='Picture' src={ require('../../pfp.jpg')} alt='profile'/>
         </div>
         <div className='About'>
           <div className='Name'>
@@ -15,11 +13,11 @@ function Card() {
             <p className='SmallJ'>@bigJ</p>
           </div>
           <div className='Logos'>
-            <div>L1</div>
-            <div>L2</div>
-            <div>L3</div>
-            <div>L4</div>
-            <div>L5</div>
+            <Icon src='www.google.com' icon='facebook'/>
+            <Icon src='www.google.com' icon='linkedin'/>
+            <Icon src='www.google.com' icon='twitter'/>
+            <Icon src='www.google.com' icon='instagram'/>
+            <Icon src='www.google.com' icon='pinterest'/>
           </div>
           <div className='Info'>
             Crafting brand and communication strategies, creating visual designs,
@@ -32,6 +30,14 @@ function Card() {
         </div>
       </div>
     </div>
+  );
+}
+
+function Icon(props){
+  return (
+  <>
+    <a href={'https://' + props.src} target='_blank' rel='noreferrer'> <img className='Icon' src={ require('../../' + props.icon + '.png')} alt='icon'/> </a>
+  </>
   );
 }
 

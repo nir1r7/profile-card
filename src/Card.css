@@ -17,7 +17,7 @@
 
   border: none;
   border-radius: 25px;
-  box-shadow: 0.2px 2px 5px black;
+  box-shadow: 0.2px 2px 20px gray;
   background-color: white;
 
   width: 24%;
@@ -26,10 +26,18 @@
 
 /* Header css */
 .Header{
-  background: lightskyblue;
+  /* background: lightskyblue; */
+  margin-top: 20px;
 
   width: 100%;
   height: 35%;
+}
+
+.Picture{
+  border: none;
+  border-radius: 50%;
+
+  width: 31%;
 }
 
 /* Mid section css */
@@ -42,10 +50,6 @@
 
   width: 80%;
   height: 60%; /* waba */
-}
-
-.Name{
-  
 }
 
 .BigJ{
@@ -64,6 +68,10 @@
   justify-content: space-evenly;
 
   width: 100%;
+}
+
+.Icon{
+  width: 20px;
 }
 
 .Info{
