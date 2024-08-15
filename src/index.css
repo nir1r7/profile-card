@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 body {
   margin: 0;
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
 
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Outfit;
 
   background-color: #f0f2c0;
 }
